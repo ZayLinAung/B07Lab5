@@ -22,17 +22,17 @@ public class Hexagon {
     }
 
     public boolean isEquilateral() {
-    double dAB = A.distance(B);
-    double dBC = B.distance(C);
-    double dCD = C.distance(D);
-    double dDE = D.distance(E);
-    double dEF = E.distance(F);
-    double dFA = F.distance(A);
+        double dAB = A.distance(B);
+        double dBC = B.distance(C);
+        double dCD = C.distance(D);
+        double dDE = D.distance(E);
+        double dEF = E.distance(F);
+        double dFA = F.distance(A);
 
-    return Math.abs(dAB - dBC) < 1e-7 &&
-        Math.abs(dBC - dCD) < 1e-7 &&
-        Math.abs(dCD - dDE) < 1e-7 &&
-        Math.abs(dDE - dEF) < 1e-7 &&
-        Math.abs(dEF - dFA) < 1e-7;
-	}
+        return Math.abs(dAB - dBC) < 1e-7 &&
+                Math.abs(dBC - dCD) < 1e-7 &&
+                Math.abs(dCD - dDE) < 1e-7 &&
+                Math.abs(dDE - dEF) < 1e-7 &&
+                Math.abs(dEF - dFA) < 1e-7;
+    }
 }
