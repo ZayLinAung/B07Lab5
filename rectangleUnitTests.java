@@ -14,7 +14,7 @@ class rectangleUnitTests {
 		Point C = new Point(1,0);
 		Point D = new Point(1,1); 
 		Rectangle t1 = new Rectangle(A,B,C,D);
-		assertEquals(t1.perimeter(), 4.82842712474619);
+		assertEquals(t1.perimeter(), 4.82842712474619); //Exact number used for accuracy
 	}
 	@Test
 	void test2() {
