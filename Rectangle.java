@@ -1,4 +1,4 @@
-package B07Lab5
+package B07Lab5;
 
 public class Rectangle {
 	Point A;
