@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class HexagonTests {
 	/**
-	 * Tests for Point class
+	 * Tests for Point class.
 	 */
 	@Test
 	void testPoint() {
