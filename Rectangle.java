@@ -25,6 +25,6 @@ public class Rectangle {
 		double dAC = A.distance(C); 
 		double dBD = B.distance(D); 
 		
-		return (dAB == dBC && dBC == dCD && dCD == dDA && dAC == dBD);
+		return (dAB == dBC && dBC == dCD && dCD == dDA && dAC == dBD); //checking distance equality on all sides 
 	}
 }
